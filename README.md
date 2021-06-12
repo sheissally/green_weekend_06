@@ -91,6 +91,34 @@
 > 단락을 구분하지 않고 줄 바꿈
 ```
 <br> - Break
+
+```
+### 목록 태그
+
+> 순서 없는 목록 : ul(Unorderded List)
+> 순서 있는 목록 : ol(Ordered List)
+>
+>ahrfhr gkdahr li(List Item)
+
+```
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+</ol>
+```
+
+> 설명목록(Description List) = dl
+
+```
+<dl>
+  <dt>HTML</dt>
+  <dd>표준 마크업 언어</dd> (dd : Description Data)
+</dl>
 ```
 
  
