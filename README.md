@@ -154,4 +154,14 @@
 > attribute(속성) : href(Hypertext Refrence) : 연결되는 웹 문서의 URL
 ```
 <a href="http://www.nwver.com">네이버로 이동</a>
-
+```
+> 북마크 기능
+> 
+> 외부 페이지 연결이 아닌 같은 페이지엑서 특정위치로 이동할 수 있게 해주는 기능
+> 
+> 도착지점에 id attribute를 사용하여 이름을 지정
+> ```
+<a href="#t1"></a>
+...
+<h2 id="t1">제목<h2>
+> ```
