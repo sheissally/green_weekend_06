@@ -209,14 +209,14 @@ https://www.tablesgenerator.com/html_tables
 > 
 > - controls=1, 0
 > 
-> - autoplay=1, 0 (mute와 같이 사용 ⇒ auotplay=1&mute=1)
+> - autoplay=1, 0 (mute와 같이 사용 ⇒ ex. auotplay=1&mute=1)
 > 
 > - mute=1, 0
 > 
-> - loop=1, 0 (playlist와 같이 사용 ⇒ loop=1&playlist=물음표앞의video_id)
+> - loop=1, 0 (playlist와 같이 사용 ⇒ ex. loop=1&playlist=video_id)
 >              
 > - playlist=물음표앞의video_id
-
+>
 > 텍스트는 HTML 문서에 직접 입력되는 콘텐츠 ⇒ 텍스트(text) 콘텐츠
 > 
 > 이미지와 동영상, 오디오 콘텐츠는 외부에서 만들어지는 콘텐츠
