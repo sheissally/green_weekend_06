@@ -180,7 +180,7 @@ https://www.tablesgenerator.com/html_tables
 
 
 ### Image Element
-> Tag L img
+> Tag : img
 > 
 > Attribute : src(image 위치, 파일명), alt(대체 텍스트)
 ```
