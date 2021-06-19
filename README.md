@@ -205,16 +205,17 @@ https://www.tablesgenerator.com/html_tables
 
 > 비디오 콘텐츠 제공시 서버의 트래픽 과부하를 해결할 수 있는 방법 중의 하나
 > 
-> 매개변수 ( src 주소의 쌍따옴표 안에 ?(물음표) 입력 후 매개변수 설정 / 매개변수를 여러개 설정시 공백 없이 &로 연결하여 입력 )
+> 매개변수 ( src 주소의 쌍따옴표 안에 ?(물음표) 입력 후 매개변수 설정 / 매개변수를 여러개 설정시 공백 없이 &로 연결하여 입력 / 1은 설정, 0은 설정안함 )
 > 
 > - controls=1, 0
 > 
-> - autoplay=1, 0 (mute와 같이 사용)
+> - autoplay=1, 0 (mute와 같이 사용 ⇒ auotplay=1&mute=1)
 > 
 > - mute=1, 0
 > 
-> - loop=1, 0 (playlist와 같이 사용 ⇒ playlist=물음표앞의video_id)
-> 
+> - loop=1, 0 (playlist와 같이 사용 ⇒ loop=1&playlist=물음표앞의video_id)
+>              
+> - playlist=물음표앞의video_id
 
 > 텍스트는 HTML 문서에 직접 입력되는 콘텐츠 ⇒ 텍스트(text) 콘텐츠
 > 
