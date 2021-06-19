@@ -99,7 +99,7 @@
 > 
 > 순서 있는 목록 : ol(Ordered List)
 >
->ahrfhr gkdahr li(List Item)
+> 목록 항목 : li(List Item)
 
 ```
 <ul>
