@@ -178,3 +178,12 @@
 
 https://www.tablesgenerator.com/html_tables
 
+
+### Image Element
+> Tag L img
+> 
+> Attribute : src(image 위치, 파일명), alt(대체 텍스트)
+```
+<img src="image.jpg" alt="대체텍스트">
+```
+
