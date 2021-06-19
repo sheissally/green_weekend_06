@@ -96,6 +96,7 @@
 ### 목록 태그
 
 > 순서 없는 목록 : ul(Unorderded List)
+> 
 > 순서 있는 목록 : ol(Ordered List)
 >
 >ahrfhr gkdahr li(List Item)
@@ -152,5 +153,5 @@
 >
 > attribute(속성) : href(Hypertext Refrence) : 연결되는 웹 문서의 URL
 ```
-<a href="http://www.nwver.com">
+<a href="http://www.nwver.com">네이버로 이동</a>
 
