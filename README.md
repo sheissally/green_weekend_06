@@ -236,6 +236,7 @@ https://www.tablesgenerator.com/html_tables
 https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 
 ### Container Element(의미가 없는 단순 영역 구분 요소)
+  : 영역의 의미가 애매한 경우 사용
 > div(division)
 > 
 > span
