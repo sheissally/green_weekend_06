@@ -250,9 +250,9 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > Block Element는 줄바꿈 되어 표시 - Block Element 영역의 가로 너비는 부모요소 너비의 100%로 채워짐
 > (** 포함하는 요소 : 부모요소 / 포함되는 요소 : 자식요소)
 > 
-> - Block Element에는 위, 아래 여백을 적용할 수 있음
+>    ▷ Block Element에는 위, 아래 여백을 적용할 수 있음
 > 
 > Inline Element는 같은 줄에 나란히 표시 - Inline Element 영역의 가로 너비가 콘텐츠 크기 만큼만 정해짐
 > 
-> - Inline Element는 위, 아래 여백을 적용할 수 없음
+>    ▷ Inline Element는 위, 아래 여백을 적용할 수 없음
 
