@@ -235,3 +235,9 @@ https://www.tablesgenerator.com/html_tables
 ### 웹사이트 탬플릿 디자인(다운로드)
 https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 
+### Container Element(의미가 없는 단순 영역 구분 요소)
+> div(division)
+> 
+> span
+> 
+
