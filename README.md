@@ -1,5 +1,6 @@
 # HTML, CSS, JS 기초
 
+
 ## HTML
 
 > HTML : Hyper Text Markup Language
@@ -8,6 +9,7 @@
 > 
 > 웹페이지의 컨텐츠를 표시
 > 
+
 
 ### HTML Elements
 
@@ -38,6 +40,8 @@
   </div>
 </body>
 ```
+
+
 ### HTML Attribute
 
 > HTML 속성
@@ -50,6 +54,7 @@
 <a href="http://www.naver.com">naver</a>
 ```
 
+
 ### HTML 페이지에서 표시하는 콘텐츠
 
 - 텍스트 콘텐츠
@@ -59,6 +64,7 @@
   - 비디오
   - 오디오
 
+
 ### 제목 태그
 
 > heading -> h
@@ -66,6 +72,7 @@
 > h1~h6
 > 
 > h1이 가장 큰 제목
+
 
 ### HTML 기본 구조
 
@@ -89,6 +96,7 @@
 5. title ⇒ 웹 문서의 제목(브라우져의 타이틀에 표시)을 표시하는 요소
 6. body ⇒ 웹 문서의 콘텐츠 요소들이 담기는 영역 요소
 
+
 ### 단락 태그
   
 > p(Paragraph) : 단락을 표시
@@ -103,6 +111,8 @@
 <br> - Break
 
 ```
+
+
 ### 목록 태그
 
 > 순서 없는 목록 : ul(Unorderded List)
@@ -157,6 +167,7 @@
 </dl>
 ```
 
+
 ### HTML Hyper Link
 
 > 하이터랑크 a(anchor)
@@ -175,6 +186,7 @@
 ...
 <h2 id="t1">제목<h2>
 ```
+
 
 ### Table Element 
 
@@ -198,6 +210,7 @@ https://www.tablesgenerator.com/html_tables
 ```
 
 ### Vidio Element
+
 > 비디오 및 오디오 콘텐츠는 용량이 크기 때문에 서버에 저장을 해서 콘텐츠를 제공하면 많은 트래픽이 발생할 수 있음.
 > 
 > 트래픽 과부하를 해결하기 위해서 유튜브 서비스를 사용하기도 함.
@@ -209,6 +222,7 @@ https://www.tablesgenerator.com/html_tables
 > muted : 음소거
 > 
 > loop : 반복 재생
+
 
 ### Youtube
 
@@ -232,14 +246,17 @@ https://www.tablesgenerator.com/html_tables
 > 
 > 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입 ⇒ 임베드(embed) 콘텐츠
 
+
 ### 웹사이트 탬플릿 디자인(다운로드)
 https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
+
 
 ### Container Element(의미가 없는 단순 영역 구분 요소)
   : 영역의 의미가 애매한 경우 사용
 > div(division)
 > 
 > span
+
 
 ### Block, Inline
 
@@ -255,6 +272,7 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > * Inline Element는 같은 줄에 나란히 표시됨 - Inline Element 영역의 가로 너비가 콘텐츠 크기 만큼만 정해짐
 > 
 >     → Inline Element는 위, 아래 여백을 적용할 수 없음
+
 
 ### Parent Element(부모요소), Child Element(자식요소)
 
@@ -273,4 +291,49 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 각 선언에는 콜론으로 구분된 CSS 속성(Property)이름과 값(Value)이 포함됩니다.
 >
 > 여러 CSS 선언은 세미콜론으로 구분하고 선언 블록은 중괄호로 묶습니다.
+
+
+### id, class
+
+> HTML Element에 특정 이름을 사용할 때 id, class attribute를 사용해서 이름을 붙여줄 수 있음.
+> 
+> id는 동일한 이름이 사용된 HTML Element가 여러개이면 논리적 오류가 발생
+> 
+> id는 HTML문서 내에서 고유해야 함
+> 
+> class는 동일한 이름이 여러개의 Element에 사용되어서 공통 디자인 요소나 공통 기능을 적용할 수 있음.
+> 
+> id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용 => 백엔드 개발에서 주로 사용
+> 
+> class는 주로 css 스타일 적용, javascript 인터랙션을 적용할 때 사용 => 프론트엔드 개발에서 주로 사용
+
+
+### CSS 작성방법
+
+> External CSS : 파일 분리
+> 
+> Internal CSS : 같은 HTML문서 내에 head 태그 영역에  style 태그를 사용하여 입력 
+>
+> Inline CSS : 시작태그에 style attribute를 사용해서 입력 => javascript에서 css를 제어할 때 사용
+
+
+### naming할 때 표기방식
+
+> id/class naming, 변수/함수 naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
+> 
+> 표기방식을 사용하는 이유 : naming할 때 두 단어 이상으로 구성되는 경우 단어 사이를 구분하기 위해
+> 
+>   ⇒ 단어 시작부분의 첫글자를 대문자로 변경하거나 특수기호를 사용
+> 
+> 표기방식 종류
+> 
+> * snake case : 파일/폴더 이름에 사용  ⇒ ex) gnb_depth1
+> 
+> * kebab case : id/class 이름에 사용  ⇒ ex) gnb-depth1
+>
+> * camel case : javascript의 변수/함수 이름에 사용  ⇒ ex) gnbDepth1
+> 
+> * Pascal case : javascript의 클래스 이름에 사용  ⇒ ex) GnbDepth1
+> 
+  
 
