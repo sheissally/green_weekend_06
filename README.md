@@ -256,3 +256,6 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 
 >     → Inline Element는 위, 아래 여백을 적용할 수 없음
 
+### Parent Element(부모요소), Child Element(자식요소)
+
+> 포함관계에서 포함하는 요소가 부모요소, 포함되는 요소가 
