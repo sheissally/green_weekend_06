@@ -260,6 +260,6 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 
 > 포함관계에서 포함하는 요소가 부모요소, 포함되는 요소가 
 > 
-> 직계 포함관계에서만 부모요소, 자식요소라고 이야기 함
+> 직계 포함관계에서만 부모요소, 자식요소라고 함
 > 
 > 직계가 아닌 포함관계에서는 조상요소(Ancestor Element), 자손요소(descendant Element) 라고 함
