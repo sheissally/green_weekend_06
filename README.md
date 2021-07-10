@@ -283,7 +283,7 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 직계가 아닌 포함관계에서는 조상요소(Ancestor Element), 자손요소(descendant Element) 라고 함
 
 
-### CSS 기본 개녕
+### CSS 기본 개념
 > 선택자는 스타일을 지정할 HTML 요소를 가리킵니다.
 >
 > 선언 블록에는 세미콜론으로 구분 된 하나 이상의 선언이 포함됩니다.
