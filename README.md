@@ -395,12 +395,12 @@ color : rgba(52, 235, 174, 0.5);
 - text-shadow  --> 그림자
 
 
-### font CSS
+### Font CSS
 - font-family : "Times New Roman", Times, serif;
   - 순서대로 대체 폰트를 찾음
   - sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
   - 웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
-  - 대표적인 웹폰트 서비스 : 구글 폰트(https://fonts.google.com/), 눈누(https://noonnu.cc/)
+  - 대표적인 웹폰트 서비스 : 구글 폰트(https://fonts.google.com), 눈누(https://noonnu.cc)
 - font-soze
 - font-style : italic
 - font-weight : bold / 500
