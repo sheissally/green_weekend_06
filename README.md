@@ -395,7 +395,7 @@ color : rgba(52, 235, 174, 0.5);
 - text-shadow  --> 그림자
 
 
-# font CSS
+### font CSS
 - font-family : "Times New Roman", Times, serif;
   - 순서대로 대체 폰트를 찾음
   - sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
