@@ -365,4 +365,44 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 
 > - 10진수 : 255, 255, 255
 
+> CSS 사용법
+
+```
+color : #34ebae
+color : rgb(52, 235, 174);
+color : rgba(52, 235, 174, 0.5);
+```
+
+> 투명도를 표현하는 용어
+> 
+> - transparent : 투명한
+> 
+> - alpha : 투명도 설정 ⇒ RGB(8비트 크기의 채널 3개) 이외에 추가되는 8비트 크기의 채널 
+> 
+> - opacity : 불투명도 설정
+
+
+### Text CSS
+- color
+- text-align : lefr, center, right, justify  --> 정렬
+- text-decoration : underline, line-through, overline, none  --> 텍스트 라인
+- text-transform : uppercase, lowercase, Capitalize
+- text-indent : 20px / -20px  ( 들여쓰기는 양수, 내어쓰기는 음수로 입력)
+- letter-spacing : 2px / -2px  --> 띄어쓰기 
+- line-height : 20px / 1.8(배수)  --> 줄간격
+- word-spacing
+- white-space : nowrap ( nowrap --> 화면 너비보다 텍스트의 길이가 길어도 줄바꿈을 안하고 한줄로 나오게 설정하여 가로 스크롤바 생김)
+- text-shadow  --> 그림자
+
+
+# font CSS
+- font-family : "Times New Roman", Times, serif;
+  - 순서대로 대체 폰트를 찾음
+  - sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
+  - 웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
+  - 대표적인 웹폰트 서비스 : 구글 폰트(https://fonts.google.com/), 눈누(https://noonnu.cc/)
+- font-soze
+- font-style : italic
+- font-weight : bold / 500
+  - 폰트 굴기가 다양한 경우 숫자로 굵기를 표현
 
