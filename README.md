@@ -338,6 +338,29 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > * camel case : javascript의 변수/함수 이름에 사용  ⇒ ex) gnbDepth1
 > 
 > * Pascal case : javascript의 클래스 이름에 사용  ⇒ ex) GnbDepth1
-> 
-  
 
+
+
+### OOCSS(Object Oriented CSS)
+
+> HTML Element를 대상화시키는 과정에서 Element 하나하나를 모두 객체화 시키는 이론
+> 
+> HTML Element 모두 각각 id, class attribute를 사용해서 이름을 지정해줌.
+
+
+### Web Color
+> color mode
+> 
+> - 가산혼합(빛의혼합) : RGB 컬러모드
+
+> 표현할 수 있는 색의 수
+> 
+> 1byte = 8bit = 256개 (0~255)
+> 
+> RGB => 3byte => 24bit 트루컬러 : 16,777,216가지 색
+
+> 색 표현 코드값
+> 
+> - 16진수(hex code) : #AABA01  (16진수의 코드값이라는 것을 표현하기 위해 코드 앞에 #을 붙여준다.)
+> 
+> - 10진수 : 255, 255, 255)
