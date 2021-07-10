@@ -364,3 +364,5 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > - 16진수(hex code) : #AABA01  (16진수의 코드값이라는 것을 표현하기 위해 코드 앞에 #을 붙여준다.)
 > 
 > - 10진수 : 255, 255, 255)
+
+
