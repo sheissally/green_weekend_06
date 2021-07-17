@@ -417,3 +417,99 @@ color : rgba(52, 235, 174, 0.5);
 > - border : 테두리
 > 
 > - margin : 바깥 여백
+
+
+### width/height
+> width : 너비/가로길이
+> 
+> height : 높이/세로길이
+>
+> auto : 기본값
+> 
+> - Block : 너비 : 부모요소를 기준으로 채워짐 / 높이 : 콘텐츠(자식요소)를 기준으로 채워짐
+> 
+> - Inline : 너비/높이 : 콘텐츠(자식요소)에 맞춰짐
+
+
+### Padding
+> 안쪽여백
+
+> padding-top
+>
+> padding-right
+> 
+> padding-bottom
+> 
+> padding-left
+
+> padding : 10px 20px 30px 40px (top right bottom left)
+> 
+> padding : 10px 20px 30px (top right/left bottom)
+> 
+> padding : 10px 20px (top/bottom right/left)
+> 
+> padding : 10px (top/right/bottom/left)
+
+
+### margin
+> Padding과 사용방법이 같음
+
+> margin collapse
+> 
+> - 위,아래 인접하게 배치된 박스의 사이 여백이 둘 중 큰쪽으로만 적용되어 표현되는 현상
+>
+> - 위,아래 양족으로 margin을 적용하는 것보다 한쪽을 기준으로 적용하는 것이 더 효율적임
+
+
+### Border
+> border : 1px solid red; ( ⇒ 4방향 모두 적용 )
+> 
+> border-top : 1px solid red; ( ⇒ top만 적용 )
+> 
+> border-right : 1px solid red; ( ⇒ right만 적용 )
+> 
+> border-bottom : 1px solid red; ( ⇒ bottom만 적용 )
+> 
+> bordr-left : 1px solid red; ( ⇒ left만 적용 )
+
+
+### 가로 배치
+
+※ Inline 요소는 박스 모델이 제대로 적용되지 않으므로 레이아웃 구성요소로 사용하기 어렵기 때문에 Block 요소를 레이아웃 구성요소로 사용함 ⇒ 세로 배치는 기본 구성
+
+가로 배치 기법
+- float
+- flex
+- grid
+
+
+### Float
+> left, right 값을 사용해서 가로 배치
+> 
+> left, right는 부모요소를 기준으로 방향성을 표현
+> 
+> 일반적으로 왼쪽을 기준으로 순서대로 배치할 때 left만 사용해서 배치
+
+> float은 박스가 띄워지는 현상이 있기 때문에 인접새 있는 박스의 배치가 깨질 수 있음
+> 
+> float 박스를 부모요소로 감싸서 인접해 있는 박스와 float 박스를 감싸고 있는 부모요소와의 관계로 만들어줌
+> 
+> float 박스를 감싸는 부모요소는 높이가 0이 될 수 있기 때문에 그것을 clear할 수 있는 비어있는 자식요소를 넣어줌
+```
+HTML
+<div class="float-container">
+  <div class+"float-box">test</div>
+  <div class="float-box">test</div>
+  <div class="clearfix"></div>
+</div>
+
+CSS
+.float-box {
+  float:left;
+}
+.clesrfix {
+  clear:both;
+}
+```
+
+
