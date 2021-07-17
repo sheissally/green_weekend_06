@@ -513,3 +513,69 @@ CSS
 ```
 
 
+### Display 속성
+> 요소의 기본 속성을 변형하지 않고 화면에 표시되는 속성을 변형
+> 
+> block, inline, inline-block
+
+```
+div {
+  display:inline;
+}
+⇒ div : inline 속성으로 화면에 표시
+
+> inline-block : inline의 속성(한줄에 나란히 표시되는 속성)과 block의 속성(박스모델이 적용되는 속성)을 모두 표시
+```
+
+### Form 요소
+> 웹페이지에서 사용자 입력을 받아 사용하는 요소
+
+```
+<input type="test"> : 일반 텍스트를 입력하는 경우
+<input type="password"> : 비밀번호를 입력하는 경우
+
+<input type="button" value="확인"> : 시작 태그만 있고 종료 태그가 없어서 value 속성으로 텍스트를 입력해야 함
+<button type="button">확인</botton> : 
+```
+
+
+### 이미지 표현 방법
+> 콘텐트로 표현
+> - img 태그
+> 
+> 디자인 요소로 표현(content의 의미와는 상관없는 배경이미지)
+> - background-image
+
+
+### Background
+> background-color
+> 
+> background-image
+> 
+> background-repeat
+> 
+> - repeat-x (가로만 반복)  /  repeat-y (세로만 반복)  /  no-repeat (반복없음)
+> 
+> background-pasition
+> 
+> background-position
+>
+> - left, center, right / top, center, bottom : 키워드
+> 
+> - px 좌표 표시
+```
+div{
+  background-position:left top;(앞:가로방향/뒤:세로방향)
+  background-position:100px 200px;(앞:가로방향/뒤:세로방향)
+}
+```
+> background-attachment
+>  - 배경이미지를 고정
+
+> background 축약표현
+```
+background:#fff;
+background:url("image.jpg")
+```
+
+
