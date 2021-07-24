@@ -582,3 +582,62 @@ background:url("image.jpg")
 ```
 
 
+### 반응형 웹
+
+> OSMU(One Source Multi Use)
+> - One Source : HTML
+> - Multi Use: CSS, Javascript
+
+> 변경점(break point)
+> - 기준 해상도를 설정하고 범위 구간으로 설정
+
+> @media
+```
+@media 디바이스 and (구간 해상도){
+  디바이스 스타일
+}
+
+@media screen and (max-width:300px){}  // 최대 가로길이 지정하는 경우
+@media screen and (min-width:300px){}  // 최소 가로길이 지정하는 경우
+
+// 독립된 구간으로 설정하는 경우 --> 동일한 속성도 각각 설정해줘야 하는 단점이 있음
+@media screen and (min-width:360px) and (max-width:700px){
+  /* 스마트폰 CSS  */
+} 
+@media screen and (min-width:701px) and (max-width:1920px){
+  /* PC CSS  */
+}
+
+// 포함된 구간으로 설정하는 경우 --> 동일한 속성은 한번만 설정할 수 있음 : 스마트폰 구간이 PC 구간 안에 포함시켜 PC 구간을 오픈된 범위로 설정
+/* PC CSS  */
+@media screen and (max-width:700px){
+  /* 스마트폰 CSS  */
+}
+  
+@mesia screen an
+
+```
+
+
+### JavaScript
+
+
+### DOM
+
+
+### Event
+> 상황 변화에 따라 발생되는 신호
+
+> Event 발생
+> - Event 감지 : 종류, 상황
+> - 감지한 Event에 맞는 기능, 동작 실행
+
+> Event 종류
+> - Mouse Event: click, mouse over, mouse out
+> - Keyboard Event : Key 입력
+
+> Event 감지 함수
+> - javascript : addEventListener()
+> - jquery: on()
+
+함수 : 익명함수 정리
