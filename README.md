@@ -600,7 +600,7 @@ background:url("image.jpg")
 @media screen and (max-width:300px){}  // 최대 가로길이 지정하는 경우
 @media screen and (min-width:300px){}  // 최소 가로길이 지정하는 경우
 
-// 독립된 구간으로 설정하는 경우 --> 동일한 속성도 각각 설정해줘야 하는 단점이 있음
+// 독립된 구간으로 설정하는 경우 --> 동일한 속성도 각각 따로 설정해줘야 하는 단점이 있음
 @media screen and (min-width:360px) and (max-width:700px){
   /* 스마트폰 CSS  */
 } 
@@ -608,7 +608,7 @@ background:url("image.jpg")
   /* PC CSS  */
 }
 
-// 포함된 구간으로 설정하는 경우 --> 동일한 속성은 한번만 설정할 수 있음 
+// 포함된 구간으로 설정하는 경우 --> 동일한 속성은 한번만 입력해도 되기 때문에 코드가 짧아짐 
     : 스마트폰 구간이 PC 구간 안에 포함되며, PC 구간이 오픈된 범위로 사용됨
 /* PC CSS  */
 @media screen and (max-width:700px){
